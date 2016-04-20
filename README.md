@@ -6,13 +6,43 @@
 ### General Introductions (15 mins: 10am - 10:15am)
 
 ### Wooden Block Game (30 mins: 10:15 - 10:45am)
-- Minecraft coordinate system:
+- Minecraft coordinate system: (10mins)
   - x-axis: East (positive), West (negative)
   - z-axis: South (positive), North (negative)
   - y-axis: High (positive), Low (negative)
   - Right-handed coordinates: thumb = x, index = y, middle = z
   
 ![Coordinate Systems](http://viz.aset.psu.edu/gho/sem_notes/3d_fundamentals/gifs/left_right_hand.gif)
+
+-Battleship game (testing coordinate system) (10-15 mins)
+Setup Instructions:
+  -Each of you gets 30 blocks 
+  -Create your battleships on the grid by using those blocks, you can lay them out on the grid paper ('x-z' plane) however you like 
+  -Note: You must have at least 2 ships of 5 blocks each, 2 ships of 4 blocks each, 2 ships of 3 blocks each.  
+  -You only get 3mins (timer!) to layout your ships
+  -Try not to show your 'secret, strategic' layout to your enemies! 
+
+Battle instructions:
+  -Everyone is playing agansit each other
+  -Each of you get three 'bombs'.  You can drop the bomb wherever you think you enemies' ships maybe to attack and take down their ships
+  -Clockwise in the room: To drop your 3 bombs, shout out 3 sets of coordinates where you want to drop the bomb (x, y, z) - be careful not to pick any coordinates which your ships are touching! [Note that y will always be 0 in this case] 
+  -With each attack, everyone must take out the ship blocks there were touching the coordinates bombed (the attacked area will be displayed in the front of the room as well) 
+  -When once round is finished, winner will be the one with most ship blocks left! 
+- :gift: Winner gets a prize! 
+
+-Looping concept (10mins)
+ -Build a pyramid on the grid paper: start with 10 blocks and build upwards on the y-axis 
+ Think:
+ -How many blocks should be there in the next level (y=1) to take the shape of a pyramid?
+ -How many blocks should be there in the level above that?
+ -Do you see a pattern here? 
+ Observe:
+ -We are repeating the action of creating a row of blocks on top of each other, but each time we take out 2 blocks 
+ -We repeat this until we only have two blocks left!
+ How can loops help us:
+ -We can build a pyramid like this in the digital world by giving 1 single instruction to the computer - 1 LOOOP
+ <pseudo code for pyramid loop>
+
 
 - Instructions: 
   - B (Block) *x,y,z*
